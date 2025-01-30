@@ -27,7 +27,7 @@ namespace KhumaloCraft.Controllers
             return View();
         }
 
-        public IActionResult Contuct()
+        public IActionResult Contact()
         {
             return View();
         }
