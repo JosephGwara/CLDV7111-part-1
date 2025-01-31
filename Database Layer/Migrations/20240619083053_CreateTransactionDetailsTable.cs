@@ -4,10 +4,10 @@
 
 namespace Database_Layer.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class CreateTransactionDetailsTable : Migration
     {
-        /// <inheritdoc />
+      
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -49,7 +49,7 @@ namespace Database_Layer.Migrations
                 column: "ProductId");
         }
 
-        /// <inheritdoc />
+      
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

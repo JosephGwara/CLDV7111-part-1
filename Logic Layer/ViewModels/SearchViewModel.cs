@@ -12,3 +12,4 @@ namespace Logic_Layer.ViewModels
         public List<ProductViewModel> Products { get; set; }
     }
 }
+
