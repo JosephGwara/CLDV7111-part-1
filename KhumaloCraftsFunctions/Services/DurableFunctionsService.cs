@@ -42,7 +42,7 @@ public class DurableFunctionsService : IDurableFunctionsService
     {
         try
         {
-            string functionUrl = $"http://your-function-app.azurewebsites.net/api/GetNotifications/{instanceId}";
+            string functionUrl = $"http://st10461919-cldv7111_part3-function.azurewebsites.net/api/GetNotifications/{instanceId}";
 
             HttpResponseMessage response = await _httpClient.GetAsync(functionUrl);
 

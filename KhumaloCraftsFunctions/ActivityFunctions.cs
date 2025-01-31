@@ -46,11 +46,10 @@ namespace KhumaloCraftsFunctions
         [FunctionName("ProcessPaymentActivity")]
         public static async Task<bool> ProcessPayment([ActivityTrigger] OrderData orderData)
         {
-            // Implement your logic to process payment here
             Console.WriteLine("Processing payment...");
-            await Task.Delay(1000); // Simulate payment processing
+            await Task.Delay(1000); 
             Console.WriteLine("Payment processed successfully.");
-            return true; // Return true for successful payment, false for failed payment
+            return true; 
         }
 
         [FunctionName("SendOrderConfirmationActivity")]
